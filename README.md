@@ -1,6 +1,6 @@
 # optuscounterapi
 
-Application is built on Spring boot, it can run in any system without doing any env setup. Prerequisite is mentioned below;
+Application is built on Spring boot on port 9090, it can run in any system without doing any env setup. Prerequisite is mentioned below;
 
 It has two Rest service
 
