@@ -34,3 +34,8 @@ To build and test
 3. mvn clean install
 4. java -jar target/optus-counter-api-1.0-SNAPSHOT.jar
 5. Access through curl as mentioned above
+
+OR run from your editor eclipse/intelliJ
+
+1. Run SpringBootCounterRunner.java (main Program)
+2. Access through curl as mentioned above
