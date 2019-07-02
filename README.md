@@ -25,11 +25,12 @@ H”Accept: text/csv”
 To run the application
 
 Pre-requisite;
-Java 8 in classpath
-Maven in classpath
+1. Java 8 in classpath
+2. Maven in classpath
 
 To build and test
-git clone <current repository>
-cd <to cloned repository directory>
-mvn clean install
-java -jar target/optus-counter-api-1.0-SNAPSHOT.jar
+1. git clone <current repository>
+2. cd <to cloned repository directory>
+3. mvn clean install
+4. java -jar target/optus-counter-api-1.0-SNAPSHOT.jar
+5. Access through curl as mentioned above
