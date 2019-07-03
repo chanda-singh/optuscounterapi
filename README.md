@@ -7,9 +7,7 @@ It has two Rest service
 1. http://localhost:9090/counter-api/search (Post service)
 
 Sample Request
-> curl http://host/counter-api/search -H"Authorization: Basic b3B0dXM6Y2FuZGlkYXRlcw==" -
-d’{“searchText”:[“Duis”, “Sed”, “Donec”, “Augue”, “Pellentesque”, “123”]}’ -H"Content-
-Type: application/json" –X POST
+> curl http://localhost:9090/counter-api/search -H"Content-Type: application/json" -H"accept: application/json" -H"Authorization: Basic b3B0dXM6Y2FuZGlkYXRlcw==" –X POST -d'{"searchText":["Duis", "Sed", "Donec", "Augue", "Pellentesque", "123"]}'
 
 Result in JSON:
 > {"counts": [{"Duis": 11}, {"Sed": 16}, {"Donec": 8}, {"Augue": 7}, {"Pellentesque": 6},
@@ -18,7 +16,7 @@ Result in JSON:
 2. http://localhost:9090/counter-api/top/{number} (Get Service)
 
 Sample Request : 
-curl http://host/counter-api/top/20 -H"Authorization: Basic b3B0dXM6Y2FuZGlkYXRlcw==" -
+curl http://localhost:9090/counter-api/top/20 -H"Authorization: Basic b3B0dXM6Y2FuZGlkYXRlcw==" -
 H”Accept: text/csv”
 
 
